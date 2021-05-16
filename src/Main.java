@@ -1,5 +1,12 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello");
+
+    NutritionFacts cocaCola = new NutritionFacts.Builder(240,8).
+            calorie(100).sodium(35).carbohydrate(27).build();
+
+
+        System.out.println(cocaCola);
+        }
     }
-}
+
